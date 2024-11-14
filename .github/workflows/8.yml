@@ -60,4 +60,4 @@ jobs:
         ADMIN_CHATID: ${{ secrets.ADMIN_CHATID }}
       run: |
         sudo Xvfb :99 -ac &
-        python b.py
+        python b8.py
